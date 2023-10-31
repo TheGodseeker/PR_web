@@ -1,0 +1,34 @@
+body, h1 {
+    margin:0%;
+    padding: 0%;
+}
+
+.topbar{
+    background-color: #8196B7;
+    display: flex; 
+    justify-content: space-between;
+}
+
+div .topbar{
+    padding-right: 10%;
+}
+
+.button{
+    padding: 0% 2% 0% 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    white-space: nowrap;
+}
+
+.logo{
+    padding-left: 5%;    
+}
+
+.main{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.us_short{
+    text-align: center;
+}
