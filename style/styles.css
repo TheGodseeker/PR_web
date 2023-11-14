@@ -4,6 +4,7 @@
 body, h1 {
     margin:0%;
     padding: 0%;
+    
 }
 
 body{
@@ -147,7 +148,9 @@ div .topbar{
     margin-left: 5%;
 }
 
-
-/* p .quote {
-    width: 10%;
-} */
+.reviews_header{
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

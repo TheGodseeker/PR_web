@@ -1,4 +1,7 @@
 const React = require("react");
+//const ReactDOM = require("react-dom/client");
+//import {Link} from "react-router-dom";
+
 
 class TopBar extends React.Component {
     render(){
@@ -7,6 +10,7 @@ class TopBar extends React.Component {
             <h1 class="logo">RentHome</h1>
             <div class="topbar">
                 <p class="button">Отзывы</p>
+                {/* <Link to="/reviews">Отзывы</Link>  */}
                 <p class="button">Квартиры</p>
                 <p class="button">Бронирование</p>
                 <p class="button">Услуги</p>
