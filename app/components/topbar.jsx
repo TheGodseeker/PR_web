@@ -3,7 +3,7 @@ const React = require("react");
 class TopBar extends React.Component {
     render(){
         return(
-            <div class="topbar">
+        <div class="topbar">
             <h1 class="logo">RentHome</h1>
             <div class="topbar">
                 <p class="button">Отзывы</p>
@@ -20,4 +20,3 @@ class TopBar extends React.Component {
 }
 
 module.exports = TopBar;
-//export default TopBar

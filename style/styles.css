@@ -6,6 +6,11 @@ body, h1 {
     padding: 0%;
 }
 
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
 .topbar{
     background-color: #8196B7;
     display: flex; 
@@ -18,11 +23,35 @@ div .topbar{
     padding-right: 10%;
 }
 
+
+.bottom{
+    display: flex; 
+    justify-content: space-between;
+    background-color: #D3DDEC;
+    width: 100%; 
+    font-family: 'Roboto Flex', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .button{
     padding: 0% 2% 0% 2%;
     margin-left: 2%;
     margin-right: 2%;
     white-space: nowrap;
+    background-color: #8196B7;
+    text-align: center;
+}
+
+.rent_button{
+    padding: 1% 3% 1% 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    white-space: nowrap;
+    background-color: #8196B7;
+    width: 15%;
+    display: inline-block;
+    border-radius: 3%;
 }
 
 .logo{
@@ -32,6 +61,13 @@ div .topbar{
 
     font-family: 'Roboto Flex', sans-serif;
 }
+
+/* .bg{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    filter: blur(8px);
+    position: absolute;
+} */
 
 .main{
     padding-right: 10%;
@@ -46,9 +82,10 @@ div .topbar{
 
 .us_txt{
     font-family: 'Roboto Flex', sans-serif;
-
-    width: 65%;
+    
+    width: 50%;
     float: right;
+    
 }
 
 .us_img{
@@ -62,22 +99,55 @@ div .topbar{
 
 }
 
-img.us_img{
+.us_img img{
+    float: left;
     margin: 1%;
+    border-radius: 5%;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.35);
 }
 
-.top_img.us_img{
+.top_img{
     width: 50%;
     height: 50%;
 }
 
-.bot_img.us_img{
-    width: 30%;
-    height: 30%;
+.bot_img{
+    width: 50%;
+    height: 50%;
 }
 
 
 .quote {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Roboto Flex', sans-serif;
     display: flex; 
     justify-content: space-between;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
+
+.quote img{
+    border-radius: 100%;
+}
+
+.q_img_left{
+    width: 30%;
+    height: 30%;
+    margin-right: 5%;
+}
+
+.q_img_right{
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+}
+
+
+/* p .quote {
+    width: 10%;
+} */
