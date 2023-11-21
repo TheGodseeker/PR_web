@@ -1,4 +1,5 @@
 const React = require("react");
+// import "bootstrap/dist/css/bootstrap.min.css";
 //const ReactDOM = require("react-dom/client");
 //import {Link} from "react-router-dom";
 
@@ -8,7 +9,7 @@ class TopBar extends React.Component {
         return(
         <div class="topbar">
             <h1 class="logo">RentHome</h1>
-            <div class="topbar">
+            <div class="tb_menu">
                 <p class="button">Отзывы</p>
                 {/* <Link to="/reviews">Отзывы</Link>  */}
                 <p class="button">Квартиры</p>

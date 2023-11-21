@@ -4,6 +4,8 @@ const TopBar = require("./topbar.jsx");
 const Quote = require("./quote.jsx");
 const Bottom = require("./bottom.jsx");
 
+
+
 class Reviews extends React.Component {
     render(){
         return(
@@ -21,7 +23,6 @@ name="Арина" pos="left"/>
                     <Quote txt="Я уже несколько раз пользовался этим сервисом по аренде квартир посуточно и каждый раз остаюсь довольным. Быстрое бронирование, отзывчивая команда поддержки и широкий выбор квартир в разных районах. Я всегда нахожу то, что ищу по приемлемой цене. Настоятельно рекомендую!"
  name="Иван" pos="left" />
                 </div>  
-                <Bottom/>
             </div>
         )
     }

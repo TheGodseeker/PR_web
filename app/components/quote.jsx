@@ -23,6 +23,14 @@ class Quote extends React.Component {
                           </div>
                     </div>
                     )
+            case "up":
+                return(
+                    <div class="quote_mb">
+                          <img src={this.props.img}/>
+                            <p>{this.props.txt}</p>
+                            <p>{this.props.name}</p>
+                    </div>
+                )
         }
     }
 
