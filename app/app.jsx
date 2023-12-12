@@ -14,7 +14,10 @@ const Main = require("./components/main.jsx");
 const Reviews = require("./components/reviews.jsx");
 const TopBar = require("./components/topbar.jsx");
 const Bottom = require("./components/bottom.jsx");
-  
+const Services = require("./components/services.jsx")
+const Service = require("./components/service.jsx")  
+
+
 ReactDOM.createRoot(
     document.getElementById("app")
 )
@@ -23,7 +26,9 @@ ReactDOM.createRoot(
         <TopBar/>
         <Routes>
             <Route path="/" element={<Main/>} />
-            <Route path="reviews" element={<Reviews/>} />
+            <Route path="reviews" element={<Reviews/>}/>
+            <Route path="services" element={<Services/>}/>
+            <Route path="service" element={<Service/>}/>
             <Route path="*" element={<p>Что ты тут делаешь?</p>}/>
         </Routes>
         <Bottom/>
