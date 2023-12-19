@@ -3,6 +3,10 @@ import MediaQuery from 'react-responsive'
 //import "bootstrap/dist/css/bootstrap.min.css";
 //import "bootstrap/dist/js/bootstrap.bundle.min";
 
+import TopBar from "./components/topbar.jsx";
+import Main from "./components/main.jsx";
+import Reviews from "./components/reviews.jsx";
+
 const ReactDOM = require("react-dom/client");
 const React = require("react");
 
@@ -10,9 +14,6 @@ const React = require("react");
 // const BSbundle = require("bootstrap/dist/js/bootstrap.bundle.min")
 
 
-const Main = require("./components/main.jsx");
-const Reviews = require("./components/reviews.jsx");
-const TopBar = require("./components/topbar.jsx");
 const Bottom = require("./components/bottom.jsx");
 const Services = require("./components/services.jsx")
 const Service = require("./components/service.jsx")  

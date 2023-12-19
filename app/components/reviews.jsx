@@ -1,10 +1,6 @@
 const React = require("react");
 
-const TopBar = require("./topbar.jsx");
-const Quote = require("./quote.jsx");
-const Bottom = require("./bottom.jsx");
-
-
+import Quote from "./quote.jsx";
 
 class Reviews extends React.Component {
     render(){
@@ -28,4 +24,5 @@ name="Арина" pos="left"/>
     }
 }
 
-module.exports = Reviews;
+
+export default Reviews
