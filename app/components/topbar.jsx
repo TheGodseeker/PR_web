@@ -22,7 +22,7 @@ class TopBar extends React.Component {
 
     render(){
 
-        if (this.state.width <= 1000) return(
+        if (this.state.width < 1000) return(
             <div class="topbar">
                 <h1 class="logo">RentHome</h1>
                 <div class="tb_menu">

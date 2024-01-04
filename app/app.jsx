@@ -6,6 +6,7 @@ import MediaQuery from 'react-responsive'
 import TopBar from "./components/topbar.jsx";
 import Main from "./components/main.jsx";
 import Reviews from "./components/reviews.jsx";
+import Search from "./components/search.jsx";
 
 const ReactDOM = require("react-dom/client");
 const React = require("react");
@@ -30,6 +31,7 @@ ReactDOM.createRoot(
             <Route path="reviews" element={<Reviews/>}/>
             <Route path="services" element={<Services/>}/>
             <Route path="service" element={<Service/>}/>
+            <Route path="search" element={<Search/>}/>
             <Route path="*" element={<p>Что ты тут делаешь?</p>}/>
         </Routes>
         <Bottom/>

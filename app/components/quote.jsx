@@ -16,7 +16,7 @@ class Quote extends React.Component {
 
     render(){
         
-        if(this.state.width <= 1000) return(
+        if(this.state.width < 1000) return(
             <div class="quote_mb">
                   <img src={this.props.img}/>
                     <p>{this.props.txt}</p>
