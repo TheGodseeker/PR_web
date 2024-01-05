@@ -23,7 +23,10 @@ class Searchbar extends React.Component {
                     <p>Гости</p>
                     <p><b>2 взрослых, без детей</b></p>
                 </div>
-                <p class="search-bt">Поиск</p>
+                <div class="search-bt">
+                    <p>Поиск</p>
+                </div>
+                
             </div>
         )
     }
