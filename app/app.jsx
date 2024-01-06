@@ -8,6 +8,7 @@ import Main from "./components/main.jsx";
 import Reviews from "./components/reviews.jsx";
 import Search from "./components/search.jsx";
 import Results from "./components/results.jsx";
+import Rent from "./components/rent.jsx";
 
 const ReactDOM = require("react-dom/client");
 const React = require("react");
@@ -34,6 +35,7 @@ ReactDOM.createRoot(
             <Route path="service" element={<Service/>}/>
             <Route path="search" element={<Search/>}/>
             <Route path="results" element={<Results/>}/>
+            <Route path="rent" element={<Rent/>}/>
             <Route path="*" element={<p>Что ты тут делаешь?</p>}/>
         </Routes>
         <Bottom/>
