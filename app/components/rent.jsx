@@ -6,7 +6,7 @@ class Rent extends React.Component {
         return(
             <div class="main">
                 <div class="rent-card">
-                    <img src={this.props.img}/>
+                    <img class="rent-img" src={this.props.img}/>
                     <div class="rent-menu">
                         <p><b>{this.props.disc}</b></p>
                         <p><b>{this.props.name}</b></p>

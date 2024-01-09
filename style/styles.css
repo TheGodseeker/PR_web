@@ -268,6 +268,7 @@ body {
     border-radius: 20px;
     margin-bottom: 30%;
     margin-top: 10%;
+    padding-right: 1%;
 }
 
 .search-cat{
@@ -277,7 +278,7 @@ body {
 
 .search-bt{
     margin-top: 1.5%;
-    margin-right: 1%;
+    /* margin-right: 1%; */
     background-color: #8196B7;
     width: 10%;
     height: 5%;
@@ -338,9 +339,10 @@ body {
     box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
     align-items: center;
+    justify-content: space-between;
 }
 
-.rent-card img {
+.rent-img {
     width: 150%;
     height: 50%;
     margin-right: 1.5%;
@@ -414,6 +416,99 @@ body {
     margin-bottom: 3%;
 }
 
+.contacts-page{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 15% 3% 15%;
+    padding: 3% 5% 3% 5%;
+    background-color: #F3F3F4;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.35);
+    align-items: center;
+}
+
+.contacts-page h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+.contacts-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-map{
+    width: 70%;
+    height: 70%;
+    /* margin-top: 5%; */
+    outline: solid rgba(0, 0, 0);
+    border-radius: 5px;
+    
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    /* justify-content: space-between; */
+    float: left;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact p{
+    margin-left: 2%;
+}
+
+.contact img{
+    width: 10%;
+    height: 60%;
+}
+
+.faq-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rent-specs{
+    display: flex;
+    flex-direction: row;
+    margin-top:3%;
+}
+
+.rent-specs p{
+    margin-right: 15%;
+}
+
+.acsept-img {
+    width: 50%;
+    height: 50%;
+    margin-right: 1.5%;
+    border-radius: 5px;
+}
+
+.input-field{
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    margin-right: 3%;
+    height: 1%;
+    /* padding: 2% 0%; */
+}
+
+.acsept-menu{
+    margin-right: 7%;
+}
+
 @media (max-width: 1000px) {
     .service-block {
         display: flex;
@@ -454,6 +549,7 @@ body {
         font-family: 'Roboto Flex', sans-serif;
         text-align: center;
         justify-content: space-between;
+        align-items: center;
         border-radius: 20px;
         margin-bottom: 30%;
     }
@@ -463,7 +559,7 @@ body {
         width: 100%;
     }
     .search-bt{
-        padding: 1% 3% 1% 10%;
+        padding: 1% 3% 1% 3%;
         margin-right: 1%;
         background-color: #8196B7;
         width: 3%;
@@ -519,7 +615,7 @@ body {
     }
 
     .search-bt{
-        margin-left: 35%;
+        /* margin-left: 35%; */
         padding-right: 10%;
         /* margin-right: 1%; */
         background-color: #8196B7;
@@ -605,5 +701,73 @@ body {
 
     .boss-block p{
         margin: 2% 1%;
+    }
+
+    .contacts-page{
+        display: flex;
+        flex-direction: column;
+        margin: 3% 15% 3% 15%;
+        padding: 3% 5% 3% 5%;
+        background-color: #F3F3F4;
+        box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.35);
+        align-items: center;
+        /* justify-content: space-between; */
+        justify-content: center;
+    }
+    
+    .contacts-page h1{
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    
+    
+    .contacts-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contacts-map{
+        width: 70%;
+        height: 70%;
+        /* margin-top: 5%; */
+        outline: solid rgba(0, 0, 0);
+        border-radius: 5px;
+        
+    }
+    
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 25%;
+        font-family: 'Roboto Flex', sans-serif;
+        display: flex;
+        /* justify-content: space-between; */
+        float: left;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+    }
+    
+    .contact p{
+        margin-left: 2%;
+    }
+    
+    .contact img{
+        width: 10%;
+        height: 60%;
+    }
+
+    .acsept-menu{
+        margin: 0% 5%;
     }
 }
