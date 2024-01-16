@@ -1,9 +1,17 @@
-const React = require("react")
+const React = require("react");
+const ReactDOM = require("react-dom/client");
+
+// import { MapContainer } from 'react-leaflet/MapContainer'
+// import { TileLayer } from 'react-leaflet/TileLayer'
+// import { useMap } from 'react-leaflet/hooks'
+import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 
 // import Quote from "./quote.jsx"
 import Contact from "./contact.jsx"
 
+
 class Contacts extends React.Component {
+
     render(){
         return(
             <div class="main">
@@ -15,8 +23,12 @@ class Contacts extends React.Component {
                             <Contact img="img/testTG.png" txt="8800353535"/>
                             <Contact img="img/testEmail.png" txt="yf@sh.st"/>
                         </div>
-                        <img class="contacts-map" src="img/testMap.png"/>  
+                        <div class="adress">
+                            <img src="img/baseTest.jpg"/>
+                            <p>Ул. Кукуево, д. 13</p>
+                        </div>
                     </div>
+
 
                 </div>           
             </div>
