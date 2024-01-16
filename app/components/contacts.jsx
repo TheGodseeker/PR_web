@@ -1,10 +1,6 @@
 const React = require("react");
 const ReactDOM = require("react-dom/client");
 
-// import { MapContainer } from 'react-leaflet/MapContainer'
-// import { TileLayer } from 'react-leaflet/TileLayer'
-// import { useMap } from 'react-leaflet/hooks'
-import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 
 // import Quote from "./quote.jsx"
 import Contact from "./contact.jsx"

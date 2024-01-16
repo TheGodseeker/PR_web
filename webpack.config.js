@@ -16,9 +16,6 @@ module.exports = {
      port: 8081,
      open: true
    },
-   externals: {
-    ymaps3: 'ymaps3'
-    },
     module:{
         rules:[   //загрузчик для jsx
             {

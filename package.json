@@ -8,17 +8,13 @@
         "build": "webpack"
     },
     "dependencies": {
-        "@googlemaps/react-wrapper": "^1.1.35",
         "bootstrap": "^5.3.2",
         "history": "5.3.0",
-        "leaflet": "^1.9.4",
         "react": "18.0.0",
         "react-dom": "18.0.0",
-        "react-leaflet": "^4.2.1",
         "react-responsive": "^9.0.2",
         "react-router": "5.3.4",
         "react-router-dom": "6.18.0",
-        "react-yandex-map": "^4.6.0",
         "usehooks-ts": "^2.9.1"
     },
     "devDependencies": {

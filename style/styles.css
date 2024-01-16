@@ -799,6 +799,12 @@ body {
         text-align: left;
         padding-left: 10%;
     }
+
+    /* .quote img {
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+    } */
 }
 
 @media (max-width: 450px){
@@ -812,5 +818,13 @@ body {
         display: inline-block;
         border-radius: 10px;
         text-align: center;
+    }
+
+    .services-grid {
+        padding-right: 2.5%;
+        padding-left: 17.5%;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+
     }
 }
