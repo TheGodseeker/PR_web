@@ -11,6 +11,6 @@ class Contact extends React.Component {
             }
     }
 
-Contact.defaultProps= {txt: "test", img: "img/testPerson.png"}
+Contact.defaultProps= {txt: "test", img: "public/img/testPerson.png"}
 
 export default Contact

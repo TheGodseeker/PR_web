@@ -14,8 +14,8 @@ class Main extends React.Component {
             <div class="main">
                 <div class="us_short">
                     <div class="us_img">
-                        <img src="img/aprt1.jpg" class="top_img"/>
-                        <img src="img/aprt2.jpg" class="bot_img"/>                        
+                        <img src="public/img/aprt1.jpg" class="top_img"/>
+                        <img src="public/img/aprt2.jpg" class="bot_img"/>                        
                     </div>
                     <div class="us_txt">
                         <h1>RENTHOME</h1>

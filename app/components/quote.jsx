@@ -50,7 +50,7 @@ class Quote extends React.Component {
 
 }
 
-Quote.defaultProps= {name: "", txt: "test", img: "img/testPerson.png", pos: "right"}
+Quote.defaultProps= {name: "", txt: "test", img: "public/img/testPerson.png", pos: "right"}
 // module.exports = Quote;
 
 export default Quote

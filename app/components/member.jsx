@@ -14,7 +14,7 @@ class Member extends React.Component {
 }
 
 Member.defaultProps = {
-    img: "../img/testPerson.png",
+    img: "public/img/testPerson.png",
     name: "Тест",
     job: "Должность"
 }

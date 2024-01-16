@@ -44,23 +44,6 @@ class TopBar extends React.Component {
                 </div>
             </div>
             )
-
-
-        // return(
-        // <div class="topbar">
-        //     <h1 class="logo">RentHome</h1>
-        //     <div class="tb_menu">
-        //         <p class="button">Отзывы</p>
-        //         <p class="button">Квартиры</p>
-        //         <p class="button">Бронирование</p>
-        //         <p class="button">Услуги</p>
-        //         <p class="button">Контакты</p>
-        //         <p class="button">FAQ</p>
-        //         <p class="button">О нас</p>
-        //     </div>
-        //     {/* <img src="../img/testMenuBT.png"  class="menu-bt"/> */}
-        // </div>
-        // )
     }
 }
 

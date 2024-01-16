@@ -47,7 +47,7 @@ class Acsept extends React.Component {
 }
 
 Acsept.defaultProps = {
-    img: "../img/aprt1.jpg",
+    img: "public/img/aprt1.jpg",
     name: "Двухместные апартаменты с 1 кроватью",
     specs: "2 гостя 1 кровать 1 спальня 52 кв.м. можно с животными",
     distr: "Ленинский район",

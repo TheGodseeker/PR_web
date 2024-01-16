@@ -15,12 +15,12 @@ class Contacts extends React.Component {
                     <h1>КАК С НАМИ СВЯЗАТЬСЯ?</h1>
                     <div class="contacts">
                         <div class="contacts-block">
-                            <Contact img="img/testPhone.png" txt="8800353535"/>
-                            <Contact img="img/testTG.png" txt="8800353535"/>
-                            <Contact img="img/testEmail.png" txt="yf@sh.st"/>
+                            <Contact img="public/img/testPhone.png" txt="8800353535"/>
+                            <Contact img="public/img/testTG.png" txt="8800353535"/>
+                            <Contact img="public/img/testEmail.png" txt="yf@sh.st"/>
                         </div>
                         <div class="adress">
-                            <img src="img/baseTest.jpg"/>
+                            <img src="public/img/baseTest.jpg"/>
                             <p>Ул. Кукуево, д. 13</p>
                         </div>
                     </div>
